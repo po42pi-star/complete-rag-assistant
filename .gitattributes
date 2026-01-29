@@ -1,0 +1,26 @@
+# =============================================================================
+# Git Attributes - нормализация окончаний строк
+# =============================================================================
+
+# Автоматическое преобразование CRLF -> LF при commit
+* text=auto
+
+# Принудительно LF для Python файлов
+*.py text eol=lf
+
+# Принудительно LF для текстовых файлов
+*.txt text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Бинарные файлы - без изменений
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.db binary
+*.sqlite3 binary
